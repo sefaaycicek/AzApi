@@ -14,6 +14,10 @@
 		DCA68F722B8DC0B400F2D540 /* AzApi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCA68F702B8DC0B400F2D540 /* AzApi.xcdatamodeld */; };
 		DCA68F742B8DC0B500F2D540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCA68F732B8DC0B500F2D540 /* Assets.xcassets */; };
 		DCA68F772B8DC0B500F2D540 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA68F752B8DC0B500F2D540 /* LaunchScreen.storyboard */; };
+		DCA68F802B8DC14700F2D540 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA68F7F2B8DC14700F2D540 /* NetworkManager.swift */; };
+		DCA68F822B8DC26100F2D540 /* NetworkUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA68F812B8DC26100F2D540 /* NetworkUtil.swift */; };
+		DCA68F842B8DD68D00F2D540 /* FlightViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA68F832B8DD68D00F2D540 /* FlightViewModel.swift */; };
+		DCA68F872B8DDDC300F2D540 /* FlightResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA68F862B8DDDC300F2D540 /* FlightResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		DCA68F732B8DC0B500F2D540 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCA68F762B8DC0B500F2D540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCA68F782B8DC0B500F2D540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA68F7F2B8DC14700F2D540 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		DCA68F812B8DC26100F2D540 /* NetworkUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkUtil.swift; sourceTree = "<group>"; };
+		DCA68F832B8DD68D00F2D540 /* FlightViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightViewModel.swift; sourceTree = "<group>"; };
+		DCA68F862B8DDDC300F2D540 /* FlightResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +66,12 @@
 		DCA68F662B8DC0B400F2D540 /* AzApi */ = {
 			isa = PBXGroup;
 			children = (
+				DCA68F852B8DDDB300F2D540 /* model */,
+				DCA68F7E2B8DC13900F2D540 /* network */,
 				DCA68F672B8DC0B400F2D540 /* AppDelegate.swift */,
 				DCA68F692B8DC0B400F2D540 /* SceneDelegate.swift */,
 				DCA68F6B2B8DC0B400F2D540 /* ViewController.swift */,
+				DCA68F832B8DD68D00F2D540 /* FlightViewModel.swift */,
 				DCA68F6D2B8DC0B400F2D540 /* Main.storyboard */,
 				DCA68F732B8DC0B500F2D540 /* Assets.xcassets */,
 				DCA68F752B8DC0B500F2D540 /* LaunchScreen.storyboard */,
@@ -68,6 +79,23 @@
 				DCA68F702B8DC0B400F2D540 /* AzApi.xcdatamodeld */,
 			);
 			path = AzApi;
+			sourceTree = "<group>";
+		};
+		DCA68F7E2B8DC13900F2D540 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				DCA68F7F2B8DC14700F2D540 /* NetworkManager.swift */,
+				DCA68F812B8DC26100F2D540 /* NetworkUtil.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		DCA68F852B8DDDB300F2D540 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				DCA68F862B8DDDC300F2D540 /* FlightResponse.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +171,10 @@
 			files = (
 				DCA68F6C2B8DC0B400F2D540 /* ViewController.swift in Sources */,
 				DCA68F682B8DC0B400F2D540 /* AppDelegate.swift in Sources */,
+				DCA68F842B8DD68D00F2D540 /* FlightViewModel.swift in Sources */,
+				DCA68F822B8DC26100F2D540 /* NetworkUtil.swift in Sources */,
+				DCA68F872B8DDDC300F2D540 /* FlightResponse.swift in Sources */,
+				DCA68F802B8DC14700F2D540 /* NetworkManager.swift in Sources */,
 				DCA68F6A2B8DC0B400F2D540 /* SceneDelegate.swift in Sources */,
 				DCA68F722B8DC0B400F2D540 /* AzApi.xcdatamodeld in Sources */,
 			);
